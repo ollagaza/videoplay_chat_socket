@@ -1,0 +1,19 @@
+{
+  "name": "socket_server",
+  "version": "1.0.0",
+  "description": "socket_server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.prod.js"
+  },
+  "author": "djyu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "moment": "^2.29.2",
+    "mongoose": "^6.2.9",
+    "socket.io": "^4.4.1"
+  }
+}
